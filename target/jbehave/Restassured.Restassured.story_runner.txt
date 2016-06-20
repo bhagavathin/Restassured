@@ -1,0 +1,18 @@
+Sample story
+(Restassured/Restassured/story_runner.story)
+Narrative:
+In order to communicate effectively to the business some functionality
+As a development team
+I want to use Behaviour-Driven Development
+Scenario: JSON status field valation
+Given the Input sheet D:\WC\Restassured\src\res\Automation_Run_Report.xlsx (PENDING)
+When the execute the JSON (NOT PERFORMED)
+Then Validate with expected result and store in excel (NOT PERFORMED)
+@Given("the Input sheet D:\\WC\\Restassured\\src\\res\\Automation_Run_Report.xlsx")
+@Pending
+public void givenTheInputSheetD\WC\Restassured\src\res\Automation_Run_Reportxlsx(){
+  // PENDING
+}
+
+
+
